@@ -1,0 +1,12 @@
+name: raas-dev
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - ipython
+  - jedi==0.17.2
+  - click>=6,<8
+  - requests>=2.20.0,<3
+  - pytest
+  - black=19.10b0
+  - flake8
