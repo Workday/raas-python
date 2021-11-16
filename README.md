@@ -7,13 +7,13 @@ Workday’s Report-as-a-Service (RaaS).
 You may install the latest version directly from GitHub with:
 
 ```bash
-pip install git+git://github.com:Workday/raas-python.git
+pip install git+git://github.com/Workday/raas-python.git
 ```
 
 It is also possible to install a specific tagged release with:
 
 ```bash
-pip install git+git://github.com:Workday/raas-python.git@0.1.0
+pip install git+git://github.com/Workday/raas-python.git@0.1.0
 ```
 
 ## Requirements
