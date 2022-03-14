@@ -109,4 +109,4 @@ class RaaS:
             else:
                 raise ValueError(f"Output format type {output_format} is unknown")
         else:
-            logging.warning("HTTP Error {}".format(r.status_code))
+            logging.warning("HTTP Error: {}".format(r.content.decode("utf-8")))
