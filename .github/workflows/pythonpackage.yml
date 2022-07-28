@@ -30,3 +30,8 @@ jobs:
       run: |
         pip install flake8
         flake8 .  --statistics --show-source
+    - name: Test with pytest
+      run: |
+        pip install pytest
+        pip install .
+        pytest
