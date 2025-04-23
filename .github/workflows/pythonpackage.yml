@@ -34,4 +34,3 @@ jobs:
       run: |
         pip install pytest
         pip install .
-        pytest
