@@ -1,13 +1,11 @@
 from setuptools import setup
-import versioneer
 
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
     name="raas",
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+    version="0.1.0",
     description="Python API client to download data from Report-as-a-Service (RaaS)",
     author="Curtis Hampton",
     author_email="CurtLHampton@gmail.com",
