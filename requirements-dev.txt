@@ -1,0 +1,5 @@
+click>=6
+requests>=2.20.0,<3
+pytest
+black
+flake8
